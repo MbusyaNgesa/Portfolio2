@@ -1,0 +1,33 @@
+strong ~ p {
+  color: blue;
+}
+
+body {
+  background-color: #e8e9eb;
+  justify-content: center;
+  font-family: "Times New Roman", Times serif;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  background-color: #640d14;
+  text-align: center;
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+li {
+  display: inline;
+}
+li a {
+  text-decoration: none;
+  padding: 16px 24px;
+  color: #fff;
+}
+li a:hover {
+  background-color: #333;
+  color: #fff;
+  font-size: 18px;
+}
