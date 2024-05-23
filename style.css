@@ -4,30 +4,36 @@ strong ~ p {
 
 body {
   background-color: #e8e9eb;
-  justify-content: center;
   font-family: "Times New Roman", Times serif;
 }
+nav {
+  border-radius: 50%;
+}
 nav ul {
+  border-radius: 25px;
   list-style-type: none;
   margin: 0;
   padding: 10px;
   background-color: #640d14;
-  text-align: center;
-  display: flex;
   position: fixed;
   top: 0;
-  width: 100%;
+  margin-left: 30%;
+  margin-right: 30%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 li {
   display: inline;
 }
 li a {
   text-decoration: none;
-  padding: 16px 24px;
+  padding: 16px;
   color: #fff;
 }
 li a:hover {
   background-color: #333;
   color: #fff;
   font-size: 18px;
+  width: 20px;
 }
